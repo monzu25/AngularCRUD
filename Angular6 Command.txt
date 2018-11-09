@@ -1,0 +1,47 @@
+Aproch of creating a Angular6 Project
+=====================================
+ open GIT BUSH or CMD or POWERSHALL 
+====================================
+1. Download and install Node.js 8.9.0 or higher.
+2. Node Package Manager (npm) to chack npm varsion 5.6.0 or higher.
+	$ npm -v 
+=========================================
+3. After setup Node.js install TypeScript.
+	$ npm install -g typescript
+==========================================
+4. Install Ajngular CLI 
+	$ npm install -g @angular/cli
+=========================================
+5. To See current version 
+	$ npm --version
+==========================================
+6. To Create New Project
+	$ ng new (project Name) for Example ng new angular-hello-world.
+=======================================================================
+7. to go inside of new project use
+	$ cd (project Name)
+======================================
+8. to run Server default port no is 4200
+	$ ng serve http://localhost:4200
+========================================
+   to run project directly on server
+	$ ng s -o 
+=======================================
+9. to run the server if 4200 port is alredy used
+	$ ng serve --port 9001 custome port no. http://localhost:9001
+=====================================================================
+10. ng generate component (component name)
+	or
+    ng g c 
+===========================================
+11. generate service
+	ng generate service (name)
+	ng g s
+========================================
+12. Add the AppRoutingModule
+	ng generate module app-routing --flat --module=app
+===========================================================
+13. Install the In-memory Web API package from npm
+	npm install angular-in-memory-web-api --save
+============================================================
+14. 
